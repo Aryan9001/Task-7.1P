@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Make the entire page height */
+}
+
+.content {
+  flex: 1; /* Allow the content to expand and fill available space */
+  overflow: auto; /* Add scrollbar if content overflows */
+}

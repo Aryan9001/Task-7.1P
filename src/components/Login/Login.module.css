@@ -1,0 +1,86 @@
+.container {
+    height: 80%;
+    min-height: 30vh;
+    width: 100%;
+    background-color: #fff;
+    /* Set the background to white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBox {
+    min-width: 480px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    /* Add a black border */
+    border: 1px solid #000;
+}
+
+/* Increase font size and weight for the "Sign up" link */
+.signUpLink {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #575658;
+    /* Change link color */
+    text-decoration: none;
+    /* Remove underline */
+    align-self: flex-start;
+    /* Align to the top left */
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .error {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #ff3300;
+    text-align: center;
+}
+
+.footer button {
+    outline: none;
+    border: none;
+    background-color: #545255;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 16px;
+    width: 100%;
+    transition: 100ms;
+    cursor: pointer;
+}
+
+.footer button:disabled {
+    background-color: gray !important;
+}
+
+.footer button:hover {
+    background-color: #090909;
+}
+
+.footer p {
+    font-weight: 700;
+    color: #000;
+}
+
+.footer p span a {
+    font-weight: bold;
+    color: #0c0a0d;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-decoration: none;
+}
